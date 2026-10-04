@@ -1,0 +1,2 @@
+import {logout} from '../login/actions';
+export default function Activation(){return <main className="auth-shell"><section className="auth-card"><span className="eyebrow">VISCOAR</span><h1>Tu acceso está pendiente.</h1><p>Tu cuenta está registrada, pero todavía no tiene una licencia activa. Contactá al administrador para habilitar el acceso de tu negocio.</p><form action={logout}><button className="button secondary">Cerrar sesión</button></form></section></main>;}
